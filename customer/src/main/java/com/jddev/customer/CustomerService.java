@@ -6,7 +6,6 @@ import com.jddev.clients.fraud.NotificationClient;
 import com.jddev.clients.fraud.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 @Service
 @AllArgsConstructor
