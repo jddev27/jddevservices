@@ -6,24 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="41973235-4663-491a-a228-91f02d7a7cdc" name="Changes" comment="configuring rabbitmq">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/jddev/clients/fraud/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/jddev/notification/NotificationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/jddev/clients/fraud/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/jddev/notification/NotificationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/jddev/clients/fraud/NotificationClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/jddev/clients/fraud/NotificationRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/clients-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigw/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/jddev/notification/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/jddev/clients/notification/NotificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/jddev/notification/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/jddev/clients/notification/NotificationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/jddev/notification/NotificationClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/jddev/notification/NotificationRequest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/jddev/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/jddev/customer/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/target/classes/com/jddev/customer/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/com/jddev/customer/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/NotificationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/NotificationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/rabbitmq/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/rabbitmq/NotificationConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/target/classes/com/jddev/notification/NotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/classes/com/jddev/notification/NotificationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/target/classes/com/jddev/notification/NotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/classes/com/jddev/notification/NotificationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/target/classes/com/jddev/notification/rabbitmq/NotificationConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/classes/com/jddev/notification/rabbitmq/NotificationConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +91,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -209,7 +212,7 @@
       <workItem from="1700515325244" duration="293000" />
       <workItem from="1700516049946" duration="11351000" />
       <workItem from="1700844123925" duration="6734000" />
-      <workItem from="1700858787895" duration="10910000" />
+      <workItem from="1700858787895" duration="13573000" />
     </task>
     <task id="LOCAL-00001" summary="adding api gateway">
       <option name="closed" value="true" />

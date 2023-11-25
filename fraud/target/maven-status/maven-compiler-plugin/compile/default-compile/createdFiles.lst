@@ -1,0 +1,6 @@
+com/jddev/FraudApplication.class
+com/jddev/FraudCheckHistoryRepository.class
+com/jddev/FraudController.class
+com/jddev/FraudCheckService.class
+com/jddev/FraudCheckHistory.class
+com/jddev/FraudCheckHistory$FraudCheckHistoryBuilder.class
