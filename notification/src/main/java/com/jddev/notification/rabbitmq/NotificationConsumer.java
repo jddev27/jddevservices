@@ -1,11 +1,10 @@
 package com.jddev.notification.rabbitmq;
 
-import com.jddev.clients.fraud.NotificationRequest;
+import com.jddev.notification.NotificationRequest;
 import com.jddev.notification.NotificationService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service

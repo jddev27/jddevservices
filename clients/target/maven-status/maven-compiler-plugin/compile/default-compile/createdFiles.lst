@@ -1,2 +1,4 @@
+com/jddev/clients/fraud/NotificationRequest.class
 com/jddev/clients/fraud/FraudClient.class
 com/jddev/clients/fraud/FraudCheckResponse.class
+com/jddev/clients/fraud/NotificationClient.class

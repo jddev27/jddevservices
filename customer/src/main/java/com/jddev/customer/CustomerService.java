@@ -3,7 +3,7 @@ package com.jddev.customer;
 import com.jddev.amqp.RabbitMQMessageProducer;
 import com.jddev.clients.fraud.FraudCheckResponse;
 import com.jddev.clients.fraud.FraudClient;
-import com.jddev.clients.fraud.NotificationRequest;
+import com.jddev.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

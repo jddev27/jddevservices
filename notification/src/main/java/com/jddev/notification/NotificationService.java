@@ -1,6 +1,5 @@
 package com.jddev.notification;
 
-import com.jddev.clients.fraud.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

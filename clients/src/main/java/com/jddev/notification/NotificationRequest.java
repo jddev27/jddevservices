@@ -1,4 +1,4 @@
-package com.jddev.clients.fraud;
+package com.jddev.notification;
 
 public record NotificationRequest(
         Integer toCustomerId,
