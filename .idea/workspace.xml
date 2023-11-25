@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41973235-4663-491a-a228-91f02d7a7cdc" name="Changes" comment="adding api gateway">
-      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/jddev/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/jddev/customer/CustomerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/jddev/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/jddev/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/target/classes/com/jddev/customer/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/com/jddev/customer/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/NotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +35,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jddev27 &lt;jddev27@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jddev27&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4aeb9c51-fc14-4e15-beec-e9bc92e1ecb9" />
+        <option name="url" value="https://github.com/jddev27/jddevservices.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -38,6 +64,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -57,7 +84,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
@@ -77,7 +104,7 @@
       <recent name="com.jddev.customer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGWApplication">
+  <component name="RunManager" selected="Spring Boot.NotificationApplication">
     <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="apigw" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jddev.apigw.ApiGWApplication" />
@@ -152,10 +179,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ApiGWApplication" />
-        <item itemvalue="Spring Boot.FraudApplication" />
         <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
@@ -176,8 +203,26 @@
       <workItem from="1700237720025" duration="6880000" />
       <workItem from="1700515325244" duration="293000" />
       <workItem from="1700516049946" duration="11351000" />
-      <workItem from="1700844123925" duration="3199000" />
+      <workItem from="1700844123925" duration="6734000" />
+      <workItem from="1700858787895" duration="9598000" />
     </task>
+    <task id="LOCAL-00001" summary="adding api gateway">
+      <option name="closed" value="true" />
+      <created>1700849525985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700849525985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding api gateway">
+      <option name="closed" value="true" />
+      <created>1700849591785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700849591785</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,5 +242,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding api gateway" />
     <option name="LAST_COMMIT_MESSAGE" value="adding api gateway" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/NotificationApplication.java</url>
+          <line>21</line>
+          <properties class="com.jddev.notification.NotificationApplication">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification/src/main/java/com/jddev/notification/rabbitmq/NotificationConsumer.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
