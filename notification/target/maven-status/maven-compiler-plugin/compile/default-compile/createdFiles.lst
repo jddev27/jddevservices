@@ -1,8 +1,0 @@
-com/jddev/notification/NotificationRepository.class
-com/jddev/notification/NotificationController.class
-com/jddev/notification/Notification.class
-com/jddev/notification/NotificationApplication.class
-com/jddev/notification/NotificationService.class
-com/jddev/notification/rabbitmq/NotificationConsumer.class
-com/jddev/notification/Notification$NotificationBuilder.class
-com/jddev/notification/NotificationConfig.class
