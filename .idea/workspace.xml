@@ -6,25 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41973235-4663-491a-a228-91f02d7a7cdc" name="Changes" comment="configuring rabbitmq">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/target/amqp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/target/amqp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/target/apigw-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/target/apigw-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/target/apigw-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/target/apigw-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/fraud-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/fraud-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/fraud-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/fraud-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/notification-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/notification-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/notification-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/notification-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +206,7 @@
       <workItem from="1700515325244" duration="293000" />
       <workItem from="1700516049946" duration="11351000" />
       <workItem from="1700844123925" duration="6734000" />
-      <workItem from="1700858787895" duration="21736000" />
+      <workItem from="1700858787895" duration="22373000" />
     </task>
     <task id="LOCAL-00001" summary="adding api gateway">
       <option name="closed" value="true" />
